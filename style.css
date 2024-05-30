@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*font-family: Cormorant Garamond */
+
+* {
+  margin: 0;
+  padding: 0px;
+  boxing-sizing: border-box;
+}
+
+/*Banner css */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-color: grey;
+  background-image: url("./images/banner.jpg");
+
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 70%;
+  height: 70px;
+  /* background-color: red;*/
+  padding: 0px 15%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.logo {
+  width: 10%;
+  height: 70px;
+  /*background: yellow;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cormorant Garamond", serif;
+}
+.logo-text {
+  width: 80%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: "poppins";
+}
+.nav {
+  width: 45%;
+  height: 70px;
+  /*background-color: blue;*/
+}
+
+.nav-links {
+  width: 100%;
+  height: 70px;
+  /* background-color: yellow;*/
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "poppins";
+}
+.nav-link {
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.banner-details {
+  width: 100%;
+  /* background-color: white;*/
+  padding: 10px 5%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+.badge {
+  width: max-content;
+  padding: 10px 20px;
+  background-color: lightgrey;
+  font-family: poppins;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.banner-heading {
+  font-size: 85px;
+  font-family: poppins;
+  color: white;
+}
+.btn {
+  padding: 18px 30px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.booking {
+  width: 70%;
+  padding: 20px 10px;
+  background-color: rgba(225, 225, 255, 0.7);
+  display: flex;
+  column-gap: 20px;
+}
+.inp {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  font-family: "poppins";
+  row-gap: 5px;
+  justify-content: flex-start;
+}
+input {
+  height: 40px;
+  text-indent: 5px;
+  font-size: 18px;
+}
+.book-btn {
+  padding: 10px 30px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about section -*/
+.about {
+  width: 95%;
+  padding: 70px 80px;
+  background: white;
+  font-family: "poppins";
+  font-size: 30px;
+  font-weight: 200;
+  word-spacing: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.highlight {
+  font-weight: bold;
+  font-size: 35px;
+}
+icon {
+  font-size: 40px;
+  color: #06def5;
+}
+
+/* rooms css */
+.rooms {
+  width: 70%;
+  padding: 50px 15%;
+  background: f9f9f9;
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title {
+  font-size: 30px;
+}
+.rooms-area {
+  width: 90%;
+  padding: 20px 0;
+  /* background-color: red;*/
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  row-gap: 50px;
+}
+.room {
+  width: 30%;
+  background-color: white;
+}
+.room-img {
+  height: 270px;
+  width: 100%;
+  /* background-color: yellow;*/
+  overflow: hidden;
+}
+.room-image {
+  width: 100%;
+  cursor: pointer;
+  transitio: 0.3s;
+}
+.room-image:hover {
+  transform: scale(1.5);
+}
+.room-details {
+  /* background: green;*/
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+.rm {
+  margin-top: -100px;
+}
+
+/* Subscribe section */
+
+.subscribe {
+  width: 70%;
+  padding: 50px 15%;
+  /* background-color: red;*/
+  display: flex;
+  justify-content: space-between;
+}
+.sub-text {
+  width: 40%;
+  padding: 20px;
+  /* background-color: skyblue;*/
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.logo2 {
+  width: 50%;
+  /*background-color: yellow;*/
+}
+.sub-desc {
+  font-size: 15px;
+}
+.sub-area {
+  width: 35%;
+  padding: 20px;
+  /* background-color: green;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "poppins";
+  row-gap: 20px;
+}
+.sub-form {
+  display: flex;
+}
+.sub-inp {
+  height: 60px;
+  width: 70%;
+}
+/* Food Section Css */
+
+.food {
+  width: 75%;
+  background-color: #fff;
+  height: 80vh;
+  padding: 50px 15%;
+  background-image: url("./images/restaurant.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.food-detail {
+  width: 70%;
+  padding: 50px;
+  margin-right: -200px;
+  /* background-color: red;*/
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 15px;
+}
+.section-header {
+  font-size: 45px;
+}
+
+/* premium css */
+.premium {
+  width: 70%;
+  padding: 50px 15%;
+  font-family: "poppins";
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prooms-area {
+  width: 100%;
+  height: 1000px;
+  /* background: green;*/
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.proom-img {
+  width: 30%;
+  height: 1000px;
+  /* background: yellow;*/
+  overflow: hidden;
+}
+.proom-boxes {
+  width: 65%;
+  height: 1000px;
+  /*background: skyblue;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.proom-image {
+  width: 100%;
+}
+.proom-box {
+  width: 100%;
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  row-gap: 15px;
+}
+
+/* Gallery */
+
+.gallery {
+  width: 70%;
+  padding: 50px 15%;
+  background-color: black;
+}
+.gall-img {
+  width: 33%;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.5 !important;
+}
+.gall-img:hover {
+  opacity: 1 !important;
+}
